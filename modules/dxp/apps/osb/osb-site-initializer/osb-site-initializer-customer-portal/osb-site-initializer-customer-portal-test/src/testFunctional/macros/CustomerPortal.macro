@@ -103,12 +103,6 @@ definition {
 		}
 	}
 
-	macro assertPageTitle {
-		AssertElementPresent(
-			key_title = "${title}",
-			locator1 = "CustomerPortalSite#PAGE_TITLE");
-	}
-
 	macro assertQuickLinksPanelInfo {
 		AssertElementPresent(
 			locator1 = "CP2NavigationMenu#QUICK_LINKS",
